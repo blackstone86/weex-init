@@ -49,6 +49,24 @@
     ```bash
     cd demo && weex compile src/foo.vue dist
     ```
+
+1. 创建weex页面
+    
+    ```bash
+    weex init demo
+    ```
+
+1. 创建weex项目
+
+    ```bash
+    weex create demo-project
+    ```
+
+1. 添加平台模拟器(针对weex项目)
+
+    ```bash
+    cd demo-project && weex platform add ios
+    ```
     
 ## `shell` 命令简写 
 
