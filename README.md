@@ -44,6 +44,12 @@
     weex demo/src --entry foo.vue
     ```
 
+1. 编译 `JS Bundle`
+
+    ```bash
+    cd demo && weex compile src/foo.vue dist
+    ```
+    
 ## `shell` 命令简写 
 
 - ## git
