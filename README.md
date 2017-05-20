@@ -94,6 +94,9 @@
             ```
         - 连接android真机
 
+    - web
+        - 安装浏览器
+
 1. 添加平台模拟器并运行(针对weex项目)
    
     ```bash
@@ -104,6 +107,24 @@
     # android
     cd demo-project && weex platform add android
     weex run android
+    ```
+
+    # web
+    cd demo-project && weex run web
+    ``` 
+
+1. 打包平台代码  
+
+    ```bash
+    # ios
+    cd demo-project && weex build ios
+
+    # android
+    # 安装 `JAVA SDK`
+    cd demo-project && weex build android
+
+    # web
+    cd demo-project && weex build web
     ```
 
 1. 添加/移除插件
