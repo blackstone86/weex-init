@@ -1,0 +1,11 @@
+# macOS
+*.DS_Store
+
+# vscode
+.vscode
+
+# project
+node_modules
+dist
+config.js
+*log
