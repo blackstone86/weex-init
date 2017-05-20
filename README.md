@@ -62,14 +62,48 @@
     weex create demo-project
     ```
 
-1. 添加平台模拟器(针对weex项目)
+1. weex运行环境准备
+    - ios
+        - 安装 `Xcode IDE`
 
+        - 运行`Xcode IDE`一次
+
+        - 安装 `cocoapods`
+
+            ```bash
+            sudo gem install cocoapods
+            ```
+        
+        - 连接ios真机
+    
+    - android
+        - 安装 `Android Studio`
+       
+        - 创建一个项目
+
+        - Tools -> Android -> AVD Manager ，新建 Android 模拟器并启动 。（如果有安装 Docker ，请关闭 Docker Server 。）
+
+        - 设置`ANDROID_HOME`路径和`adb`命令的环境变量
+            ```bash
+            # 打开环境变量配置文件
+            cd ~ && open .bash_profile
+
+            # 增加以下文本
+            export ANDROID_HOME=~/Library/Android/sdk
+            export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+            ```
+        - 连接android真机
+
+1. 添加平台模拟器并运行(针对weex项目)
+   
     ```bash
     # ios
     cd demo-project && weex platform add ios
+    weex run ios
 
     # android
     cd demo-project && weex platform add android
+    weex run android
     ```
 
 1. 添加/移除插件
