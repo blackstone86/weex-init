@@ -65,9 +65,23 @@
 1. 添加平台模拟器(针对weex项目)
 
     ```bash
+    # ios
     cd demo-project && weex platform add ios
+
+    # android
+    cd demo-project && weex platform add android
     ```
-    
+
+1. 添加/移除插件
+
+    ```bash
+    # 添加
+    weex plugin add weex-chart
+
+    # 移除
+    weex plugin remove weex-chart
+    ```
+
 ## `shell` 命令简写 
 
 - ## git
