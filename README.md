@@ -12,9 +12,18 @@
     # ? This command need to install weex-devtool. Install now? (Y/n) y
     weex debug -v
 
+    # weex-toolkit 集成 weex-devtool
+    weex platform
+    # ? This command need to install weexpack. Install now? (Y/n) y
+    weex -v
+
     # 安装 debug 工具
     npm i -g weex-devtool 
     weex-devtool -v
+
+    # 安装 platform 工具
+    npm i -g weexpack 
+    weexpack -V
     ```
 
 1. 预览
