@@ -29,7 +29,7 @@
     weex demo/src --entry demo/src/foo.vue
     ```
 
-    or
+    或
 
     ```bash
     weex demo/src --entry foo.vue
@@ -37,7 +37,7 @@
 
 ## `shell` 命令简写 
 
-- git
+- ## git
 
     ```bash
     cd ~ && nano .bash_profile
