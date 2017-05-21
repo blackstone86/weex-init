@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Weexplugin/Weexplugin/Source/WeexPlugin/WeexPluginManager.m \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Target\ Support\ Files/Weexplugin/Weexplugin-prefix.pch \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Weexplugin/Weexplugin/Source/WeexPlugin/WeexPluginManager.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Weexplugin/Weexplugin/Source/WeexPlugin/WeexPluginLoader.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WeexSDK.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXValidateProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXSDKInstance.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXComponent.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXLayoutDefine.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/Layout.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXType.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXJSExceptionInfo.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXUtility.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXDefine.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXLog.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXURLRewriteProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXResourceRequest.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXScrollerProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXScrollerComponent.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXSDKManager.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXBridgeManager.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXSDKError.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXSDKEngine.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXRootViewController.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXResourceResponse.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXResourceRequestHandler.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXNetworkProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXModuleProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXNavigationProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXMonitor.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXModalUIModule.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXListComponent.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXJSExceptionProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXImgLoaderProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXEventModuleProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXDebugTool.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXConvert.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXComponentManager.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXBridgeProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXBaseViewController.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXAppMonitorProtocol.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXAppConfiguration.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/WXAComponent.h \
+  /Users/huangjunwen/workspace/weex/demo-project/platforms/ios/Pods/Headers/Public/WeexSDK/WeexSDK/NSObject+WXSwizzle.h

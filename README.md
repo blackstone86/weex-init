@@ -123,13 +123,12 @@
     # android
     cd demo-project && weex platform add android
     weex run android
-    ```
 
     # web
     cd demo-project && weex run web
     ``` 
 
-1. 打包平台代码  
+1. 平台代码  
 
     ```bash
     # ios

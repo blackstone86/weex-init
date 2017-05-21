@@ -1,9 +1,9 @@
 {
-   "AppName":"WeexApp",
-   "Version":"0.1",
-   "BuildVersion":"0.1.0",
-   "AppId":"",
-   "CodeSign":"",
-   "Profile":"",
-   "WeexBundle":"index.js"
+    "AppName": "WeexApp",
+    "Version": "0.1",
+    "BuildVersion": "0.1.0",
+    "AppId": "blackstone86@icloud.com",
+    "CodeSign": "Huangjunwen15",
+    "Profile": "jimvin",
+    "WeexBundle": "index.js"
 }
