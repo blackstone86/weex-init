@@ -44,7 +44,7 @@
     weex demo/src --entry foo.vue
     ```
 
-1. 编译 `JS Bundle`
+1. 将 `DSL` (特定领域语言) 编译成 `JS Bundle`
 
     ```bash
     cd demo && weex compile src/foo.vue dist
@@ -75,8 +75,8 @@
             pod setup
             ```
 
-            安装 `cocoapods` 若解压失败，[去网址](https://services.gradle.org/distributions/)
-            下载 `gradle-2.14-rc-1-all.zip`，并改名为 `gradle-2.14.1-all.zip`，覆盖 `/Users/huangjunwen/.gradle/wrapper/dists/gradle-2.14.1-all/8bnwg5hd3w55iofp58khbp6yv` 目录的 `gradle-2.14.1-all.zip`
+            安装 `cocoapods` 若解压失败，或打包安卓应用失败，[去网址](https://services.gradle.org/distributions/)
+            下载 `gradle-4.0-milestone-2-all.zip`，并改名为 `gradle-2.14.1-all.zip`，覆盖 `/Users/huangjunwen/.gradle/wrapper/dists/gradle-2.14.1-all/8bnwg5hd3w55iofp58khbp6yv` 目录的 `gradle-2.14.1-all.zip`
 
             避免编译失败，如 `CompileC ...com.apple.compilers.llvm.clang.1_0.compiler` 错误，修改 `platforms/ios/Podfile` 文件
             
@@ -108,6 +108,7 @@
             export ANDROID_HOME=~/Library/Android/sdk
             export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
             ```
+
         - 连接android真机
 
     - web
