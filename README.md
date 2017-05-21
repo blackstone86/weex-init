@@ -165,6 +165,13 @@
     weex plugin create demo-plugin
     ```
 
+1. 发布插件
+
+    ```bash
+    npm adduser
+    cd demo-plugin weex plugin publish
+    ```
+
 ## `shell` 命令简写 
 
 - ## git
