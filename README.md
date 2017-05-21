@@ -196,3 +196,15 @@
 
     - 回车
     - `^X`（`control` + `X`)
+
+## 待办
+
+- 没有权限发布插件
+    
+    ```bash
+    you do not have permission to publish "demo-plugin". Are you logged in as the correct user? : demo-plugin
+    ```
+
+- 打包ios应用成功，但没有找到ipa文件
+
+    [参考链接](https://juejin.im/entry/58a3c56ada2f6000530b535b)
