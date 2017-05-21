@@ -1,4 +1,4 @@
-#Mon Feb 27 16:34:42 CST 2017
-base.0=/Users/budao/app-framework-android/bin/templates/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Mon May 22 00:13:13 CST 2017
+base.0=/Users/huangjunwen/workspace/weex/demo-project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/budao/app-framework-android/bin/templates/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/huangjunwen/workspace/weex/demo-project/platforms/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
