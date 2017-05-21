@@ -71,8 +71,12 @@
         - 安装 `cocoapods`
 
             ```bash
-            sudo gem install cocoapods
+            cd ~ && sudo gem install cocoapods
+            pod setup
             ```
+
+            安装 `cocoapods` 若解压失败，[去网址](https://services.gradle.org/distributions/)
+            下载 `gradle-2.14-rc-1-all.zip`，并改名为 `gradle-2.14.1-all.zip`，覆盖 `/Users/huangjunwen/.gradle/wrapper/dists/gradle-2.14.1-all/8bnwg5hd3w55iofp58khbp6yv` 目录的 `gradle-2.14.1-all.zip`
         
         - 连接ios真机
     
