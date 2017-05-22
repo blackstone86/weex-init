@@ -1,4 +1,4 @@
-## weex 安装环境
+﻿## weex 安装环境
 
 1. 安装 `weex-toolkit`
 
