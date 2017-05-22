@@ -12,7 +12,7 @@
     # ? This command need to install weex-devtool. Install now? (Y/n) y
     weex debug -v
 
-    # weex-toolkit 集成 weex-devtool
+    # weex-toolkit 集成 weex-devtool 
     weex platform
     # ? This command need to install weexpack. Install now? (Y/n) y
     weex -v
