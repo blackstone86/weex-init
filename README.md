@@ -44,8 +44,7 @@
     weex demo/src --entry foo.vue
     ```
 
-1. 将 `DSL` (特定领域语言) 编译成 `JS Bundle`
-
+1. 将 `DSL` (特定领域语言) 编译成 `JS Bundle`
     ```bash
     cd demo && weex compile src/foo.vue dist
     ```
