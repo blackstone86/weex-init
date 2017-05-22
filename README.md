@@ -44,7 +44,7 @@
     weex demo/src --entry foo.vue
     ```
 
-1. 将 `DSL` (特定领域语言) 编译成 `JS Bundle`
+1. 将 `DSL` (特定领域语言) 编译成 `JS Bundle`
 
     ```bash
     cd demo && weex compile src/foo.vue dist
@@ -66,7 +66,7 @@
     - ios
         - 安装 `Xcode IDE`
 
-        - 运行`Xcode IDE`一次
+        - 运行 `Xcode IDE` 一次
 
         - 安装 `cocoapods`
 
@@ -93,6 +93,7 @@
         - 连接ios真机 
     
     - android
+
         - 安装 `Android Studio`
        
         - 创建一个项目
@@ -159,7 +160,7 @@
     weexpack platform list
     ```
 
-1. 创建插件脚手架
+1. 创建插件脚手架
 
     ```bash
     weex plugin create demo-plugin
