@@ -96,7 +96,7 @@
 
         - 安装 `Android Studio`
        
-        - 创建一个项目
+        - 创建一个项目
 
         - Tools -> Android -> AVD Manager ，新建 Android 模拟器并启动 。（如果有安装 Docker ，请关闭 Docker Server 。）
 
