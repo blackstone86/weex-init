@@ -75,7 +75,7 @@
             pod setup
             ```
 
-            安装 `cocoapods` 若解压失败，或打包安卓应用失败，[去网址](https://services.gradle.org/distributions/)
+            安装 `cocoapods` 若解压失败，或打包安卓应用失败，[去网址](https://services.gradle.org/distributions/)
             下载 `gradle-3.3-all.zip`，并改名为 `gradle-2.14.1-all.zip`，覆盖 `/Users/huangjunwen/.gradle/wrapper/dists/gradle-2.14.1-all/8bnwg5hd3w55iofp58khbp6yv` 目录的 `gradle-2.14.1-all.zip`
 
             避免编译失败，如 `CompileC ...com.apple.compilers.llvm.clang.1_0.compiler` 错误，修改 `platforms/ios/Podfile` 文件
