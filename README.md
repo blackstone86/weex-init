@@ -213,7 +213,7 @@
 
 ## 各平台效果
 
-    ![][hackernews]
+![][hackernews]
 
 ## 应用注意事项
 
