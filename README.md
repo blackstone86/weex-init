@@ -241,4 +241,4 @@
 
     > 注：qemu-system-armel（x86_64)，emu-system-armel(x86)，后者比前者速度快10倍左右
 
-[hackernews]: https://raw.githubusercontent.com/blackstone86/weex-init/blob/master/platforms.png
+[hackernews]: https://raw.githubusercontent.com/blackstone86/weex-init/master/platforms.png
