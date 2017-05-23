@@ -208,3 +208,29 @@
 - 打包ios应用成功，但没有找到ipa文件
 
     [参考链接](https://juejin.im/entry/58a3c56ada2f6000530b535b)
+
+### hackernews应用注意事项
+
+- ios
+  
+  - 在 `XCODE IDE` 中打开`HackerNews.xcworkspace`目录，而不是`HackerNews.xcodeproj`
+
+  - 目录为 `root/ios/HackerNews.xcworkspace`
+
+- android
+
+  - 在 `Android Studio` 打开`android`目录
+
+  - 目录为 `root/android`
+
+  - 提高模拟器性能
+    
+    官方建议
+    
+    > Running an x86 based Android Virtual Device (AVD) is 10x faster.
+    We strongly recommend creating a new AVD.
+    FAILURE: Build failed with an exception.
+
+    在运行应用， `Select Deployment Target` 中选中 `Create New Virtual Device` -> `Nexus 5X` -> Next -> `x86 Images` 中选择 `x86` 的安装
+
+    > 注：qemu-system-armel（x86_64)，emu-system-armel(x86)，后者比前者速度快10倍左右
