@@ -209,7 +209,13 @@
 
     [参考链接](https://juejin.im/entry/58a3c56ada2f6000530b535b)
 
-### hackernews应用注意事项
+### hackernews
+
+## 各平台效果
+
+    ![][hackernews]
+
+## 应用注意事项
 
 - ios
   
@@ -234,3 +240,5 @@
     在运行应用， `Select Deployment Target` 中选中 `Create New Virtual Device` -> `Nexus 5X` -> Next -> `x86 Images` 中选择 `x86` 的安装
 
     > 注：qemu-system-armel（x86_64)，emu-system-armel(x86)，后者比前者速度快10倍左右
+
+[hackernews]: https://raw.githubusercontent.com/blackstone86/weex-init/blob/master/platforms.png
