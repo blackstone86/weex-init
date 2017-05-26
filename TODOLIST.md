@@ -4,6 +4,7 @@
   - es2015
   - vue2.0
     - router
+    - vuex
 
 - 组件搜集
   - 列表
