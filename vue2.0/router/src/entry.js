@@ -8,3 +8,7 @@ new Vue(Vue.util.extend({
 }, App))
 
 router.push('/')
+// router.push('/foo')
+// router.push('/user/1')
+// router.push({ name: 'user', params: { id: 1 }})
+
