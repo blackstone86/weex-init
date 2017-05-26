@@ -242,3 +242,25 @@
     > 注：qemu-system-armel（x86_64)，emu-system-i386(x86)，后者比前者速度快10倍左右 
 
 [hackernews]: https://raw.githubusercontent.com/blackstone86/weex-init/master/platforms.png
+
+
+## vue2.0 router
+
+1. 定位
+
+    ```bash
+    cd vue2.0/router
+    ```  
+    
+1. 安装依赖
+
+    ```bash
+    npm i
+    ```
+
+1. 运行应用
+
+    ```bash
+    npm run build
+    npm run serve
+    ```
