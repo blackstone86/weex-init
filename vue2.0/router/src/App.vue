@@ -10,6 +10,6 @@
         </ul>
         <router-view></router-view>
         <router-view name="view_2"></router-view>
-        <router-view name="view_3"></router-view>
+        <router-view name="view_3"></router-view> 
     </div>
 </template>
