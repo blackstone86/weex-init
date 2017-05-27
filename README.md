@@ -264,3 +264,13 @@
     npm run build
     npm run serve
     ```
+
+
+## git 账号
+
+1. 项目github配置
+
+    ```bash
+    git config user.name blackstone86
+    git config user.email asianking86@qq.com
+    ```
