@@ -15,6 +15,15 @@ export default new Router({
     ,{ path: '/user/:id', component: UserView }
     // 命名路由
     ,{ path: '/user/:id', name: 'user', component: UserView }
+    // 命名视图
+    ,{
+      path: '/views'
+      ,components: {
+        default: BarView
+        ,view_2: FooView
+        ,view_3: UserView
+      }
+    }
     // 重定向
     ,{ path: '/', redirect: '/foo' }
   ]
