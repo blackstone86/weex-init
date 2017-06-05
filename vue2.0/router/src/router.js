@@ -3,6 +3,9 @@ import Router from 'vue-router'
 import BarView from './views/Bar.vue'
 import FooView from './views/Foo.vue'
 import UserView from './views/User.vue'
+import UserPostsView from './views/UserPosts.vue'
+import UserProfileView from './views/UserProfile.vue'
+import UserHomeView from './views/UserHome.vue'
 
 Vue.use(Router)
 
@@ -12,7 +15,27 @@ export default new Router({
     { path: '/foo', component: BarView }
     ,{ path: '/bar', component: FooView }
     // 动态路径参数 以冒号开头
-    ,{ path: '/user/:id', component: UserView }
+    ,{ path: '/user/:id',
+       component: UserView,
+       // 嵌套路由  
+       children: [
+        {
+          // 匹配 /user/:id/profile
+          path: 'profile',
+          component: UserProfileView
+        },
+        {
+          // 匹配 /user/:id/posts
+          path: 'posts',
+          component: UserPostsView
+        },
+        {
+          // 匹配 /user/:id
+          path: '',
+          component: UserHomeView
+        }
+      ] 
+    }
     // 命名路由
     ,{ path: '/user/:id', name: 'user', component: UserView }
     // 命名视图
