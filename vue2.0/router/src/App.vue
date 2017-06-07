@@ -9,7 +9,7 @@
             <li><router-link to="/user/1/posts">Go to User 1 posts</router-link></li>
             <li><router-link :to="{ name: 'user', params: { id: 2 }}">Go to User 2 Home</router-link></li>
             <li><router-link to="/views">Go to Views</router-link></li>
-            <li><router-link :to="{ path: 'register', query: { plan: 'private' }}">Go register private</router-link></li>
+            <li><router-link :to="{ path: '/register', query: { plan: 'private' }}">Go register private</router-link></li>
             <li><button @click="toFoo">Go to Foo</button></li>
             <li><button @click="toBar">Go to Bar</button></li>
             <li><button @click="toUser2">Go to User 2 Home</button></li>
@@ -44,7 +44,7 @@
             }
             , toRegister () {
                 // 带查询参数，变成 /register?plan=private
-                router.push({ path: 'register', query: { plan: 'private' }});
+                router.push({ path: '/register', query: { plan: 'private' }});
             }
         }      
     }  
