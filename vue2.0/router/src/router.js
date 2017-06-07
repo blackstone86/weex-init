@@ -6,6 +6,7 @@ import UserView from './views/User.vue'
 import UserPostsView from './views/UserPosts.vue'
 import UserProfileView from './views/UserProfile.vue'
 import UserHomeView from './views/UserHome.vue'
+import RegisterView from './views/Register.vue'
 
 Vue.use(Router)
 
@@ -13,7 +14,7 @@ export default new Router({
   routes: [
     // 普通路由
     { path: '/foo', component: BarView }
-    ,{ path: '/bar', component: FooView }
+    ,{ path: '/bar', name: "bar", component: FooView }
     // 动态路径参数 以冒号开头
     ,{ path: '/user/:id',
        component: UserView,
@@ -46,6 +47,14 @@ export default new Router({
         ,view_2: FooView
         ,view_3: UserView
       }
+    }
+    // 带查询参数
+    ,{
+      path: '/register'
+      ,query: {
+        plan: 'private'
+      }
+      ,component: RegisterView
     }
     // 重定向
     ,{ path: '/', redirect: '/foo' }
