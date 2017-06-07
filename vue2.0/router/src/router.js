@@ -7,6 +7,8 @@ import UserPostsView from './views/UserPosts.vue'
 import UserProfileView from './views/UserProfile.vue'
 import UserHomeView from './views/UserHome.vue'
 import RegisterView from './views/Register.vue'
+import AgeView from './views/Age.vue'
+import AgeHomeView from './views/AgeHome.vue'
 
 Vue.use(Router)
 
@@ -38,7 +40,19 @@ export default new Router({
       ] 
     }
     // 命名路由
-    ,{ path: '/user/:id', name: 'user', component: UserView }
+    ,{ 
+      path: '/age/:id'
+      ,name: 'age'
+      ,component: AgeView 
+      // 嵌套路由  
+      ,children: [
+        {
+          // 匹配 /age/:id
+          path: '',
+          component: AgeHomeView
+        }
+      ]
+    }
     // 命名视图
     ,{
       path: '/views'
