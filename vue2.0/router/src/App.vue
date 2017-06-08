@@ -7,7 +7,7 @@
             <li><router-link to="/user/1">Go to User 1</router-link></li>
             <li><router-link to="/user/1/profile">Go to User 1 profile</router-link></li>
             <li><router-link to="/user/1/posts">Go to User 1 posts</router-link></li>
-            <li><router-link :to="{ name: 'age', params: { id: 2 }}">Go to Age 2 home</router-link></li>
+            <li><router-link :to="{ name: 'age.home', params: { id: 2 }}">Go to Age 2 home</router-link></li>
             <li><router-link to="/age/2">Go to Age 2 home</router-link></li>
             <li><router-link to="/views">Go to Views</router-link></li>
             <li><router-link :to="{ path: '/register', query: { plan: 'private' }}">Go register private</router-link></li>
@@ -41,7 +41,7 @@
             }
             , toAge2 () {
                 // 命名的路由
-                router.push({name: 'age', params: { id: 2 }});
+                router.push({name: 'age.home', params: { id: 2 }});
             }
             , toRegister () {
                 // 带查询参数，变成 /register?plan=private
