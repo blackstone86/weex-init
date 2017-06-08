@@ -48,8 +48,9 @@ export default new Router({
       ,children: [
         {
           // 匹配 /age/:id
-          path: '',
-          component: AgeHomeView
+          path: ''
+          ,name: 'age.home'
+          ,component: AgeHomeView
         }
       ]
     }
