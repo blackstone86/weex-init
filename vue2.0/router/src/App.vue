@@ -15,6 +15,8 @@
             <li><button @click="toBar">Go to Bar</button></li>
             <li><button @click="toAge2">Go to Age 2 home</button></li>
             <li><button @click="toRegister">Go register private</button></li>
+            <li><input v-model="prevpage"><button @click="toPrev">上一页</button></li>
+            <li><input v-model="nextpage"><button @click="toNext">下一页</button></li>
         </ul>
         <router-view></router-view>
         <router-view name="view_2"></router-view>
@@ -28,6 +30,8 @@
         data () {
             return {
                 text: 'Hello World.'
+                ,nextpage: 1
+                ,prevpage: 1
             }
         }
         , methods: {
@@ -46,6 +50,12 @@
             , toRegister () {
                 // 带查询参数，变成 /register?plan=private
                 router.push({ path: '/register', query: { plan: 'private' }});
+            }
+            , toPrev () {
+                router.go(-this.prevpage);
+            }            
+            , toNext () {
+                router.go(this.nextpage);
             }
         }      
     }  
