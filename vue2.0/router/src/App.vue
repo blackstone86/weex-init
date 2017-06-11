@@ -11,10 +11,12 @@
             <li><router-link to="/age/2">Go to Age 2 home</router-link></li>
             <li><router-link to="/views">Go to Views</router-link></li>
             <li><router-link :to="{ path: '/register', query: { plan: 'private' }}">Go register private</router-link></li>
+            <li><router-link :to="{ path: '/register', query: { plan: 'private' }}" replace>Go register private replace router</router-link></li>
             <li><button @click="toFoo">Go to Foo</button></li>
             <li><button @click="toBar">Go to Bar</button></li>
             <li><button @click="toAge2">Go to Age 2 home</button></li>
             <li><button @click="toRegister">Go register private</button></li>
+            <li><button @click="toRegister_replace_router">Go register private replace router</button></li>
             <li><input v-model="prevpage"><button @click="toPrev">上一页</button></li>
             <li><input v-model="nextpage"><button @click="toNext">下一页</button></li>
         </ul>
@@ -56,6 +58,9 @@
             }            
             , toNext () {
                 router.go(this.nextpage);
+            }
+            , toRegister_replace_router () {
+                router.replace({ path: '/register', query: { plan: 'private' }});
             }
         }      
     }  
