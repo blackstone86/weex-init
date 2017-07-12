@@ -63,13 +63,11 @@ export default new Router({
         ,view_3: UserView
       }
     }
-    // 带查询参数
+    // 别名
     ,{
       path: '/register'
-      ,query: {
-        plan: 'private'
-      }
       ,component: RegisterView
+      ,alias: '/register.alias'
     }
     // 重定向
     ,{ path: '/', redirect: '/foo' }
