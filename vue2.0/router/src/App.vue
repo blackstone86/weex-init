@@ -16,6 +16,7 @@
             <li><button @click="toBar">Go to Bar</button></li>
             <li><button @click="toAge2">Go to Age 2 home</button></li>
             <li><button @click="toRegister">Go register private</button></li>
+            <li><button @click="toRegisterByAlias">Go register.alias === Go register private</button></li>
             <li><button @click="toRegister_replace_router">Go register private replace router</button></li>
             <li><input v-model="prevpage"><button @click="toPrev">上一页</button></li>
             <li><input v-model="nextpage"><button @click="toNext">下一页</button></li>
@@ -39,7 +40,7 @@
         , methods: {
             toFoo () {
                 // 对象
-                router.push({ path: '/foo' });
+                router.push({path: '/foo' });
             }
             , toBar () {
                 // 字符串
@@ -47,11 +48,14 @@
             }
             , toAge2 () {
                 // 命名的路由
-                router.push({name: 'age.home', params: { id: 2 }});
+                router.push({name: 'age.home', params: {id: 2 }});
             }
             , toRegister () {
-                // 带查询参数，变成 /register?plan=private
-                router.push({ path: '/register', query: { plan: 'private' }});
+                // 带查询参数，变成 /register?plan=private&user=admin
+                router.push({path: '/register', query: {plan: 'private', user: 'admin'}});
+            }
+            , toRegisterByAlias () {
+                router.push({path: '/register.alias'});
             }
             , toPrev () {
                 router.go(-this.prevpage);
@@ -60,7 +64,7 @@
                 router.go(this.nextpage);
             }
             , toRegister_replace_router () {
-                router.replace({ path: '/register', query: { plan: 'private' }});
+                router.replace({path: '/register', query: {plan: 'private', user: 'admin'}});
             }
         }      
     }  
