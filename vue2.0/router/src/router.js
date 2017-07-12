@@ -13,10 +13,12 @@ import AgeHomeView from './views/AgeHome.vue'
 Vue.use(Router)
 
 export default new Router({
-  routes: [
+  mode: 'history'
+  // mode: 'hash'
+  ,routes: [
     // 普通路由
-    { path: '/foo', component: BarView }
-    ,{ path: '/bar', name: "bar", component: FooView }
+    { path: '/foo', component: FooView}
+    ,{ path: '/bar', name: "bar", component: BarView}
     // 动态路径参数 以冒号开头
     ,{ path: '/user/:id',
        component: UserView,
@@ -71,5 +73,7 @@ export default new Router({
     }
     // 重定向
     ,{ path: '/', redirect: '/foo' }
+    // history模式下避免路由匹配不到出现404错误
+    ,{ path: '*', component: FooView }
   ]
 })
